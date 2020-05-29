@@ -12,7 +12,8 @@ function AlertBanner (props) {
 
   return (
     <Banner settings={bannerSettings}>
-      {children}
+      {
+    children}
     </Banner>
   )
 }
