@@ -25,3 +25,5 @@ jobs:
       with:
         files: '{src/**/*.js}'
         annotate: true
+      env:
+         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
