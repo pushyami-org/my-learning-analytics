@@ -23,7 +23,6 @@ jobs:
     - uses: actions/checkout@v2
     - uses: goto-bus-stop/standard-action@v1
       with:
-        files: '{src/**/*.js}'
         annotate: true
       env:
          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
